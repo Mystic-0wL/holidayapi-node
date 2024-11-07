@@ -40,6 +40,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "holidayapi": "^6.0.1",
     "node-fetch": "^2.7.0"
   },
   "scripts": {
@@ -47,5 +48,6 @@
     "lint": "eslint --ext .js,.ts src tests",
     "test": "jest",
     "test:coverage": "jest --coverage"
-  }
+  },
+  "type": "module"
 }
